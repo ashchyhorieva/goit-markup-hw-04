@@ -352,7 +352,7 @@ img {
   padding: 0px;
   justify-content: center;
   align-items: center;
-  color: var(--icon-page);
+  fill: var(--icon-page);
 }
 .social-icon {
   color: currentColor;
@@ -362,7 +362,47 @@ img {
   background-color: var(--accent-color);
   fill: white;
 }
-
+/*наши клиенты*/
+.client {
+  display: flex;
+  justify-content: center;
+}
+.client-item {
+  display: flex;
+  width: 170px;
+  height: 92px;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+  margin-right: 30px;
+}
+.client-item:last-child {
+  margin-right: 0px;
+}
+.client-link {
+  display: flex;
+  width: 170px;
+  height: 92px;
+  border: 1px solid var(--icon-page);
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+  margin-right: 30px;
+  fill: var(--icon-page);
+}
+.client-icon {
+  fill: currentColor;
+}
+.client-link:hover,
+.client-link:focus {
+  background-color: var(--background-color);
+  fill: var(--accent-color);
+  border: 1px solid var(--accent-color);
+}
+.client-icon:hover,
+.client-icon:focus {
+  fill: var(--accent-color);
+}
 /* ----футер----*/
 .footer {
   padding-top: 60px;
