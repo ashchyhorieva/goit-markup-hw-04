@@ -353,6 +353,7 @@ img {
   justify-content: center;
   align-items: center;
   fill: var(--icon-page);
+  background-color: rgba(255, 255, 255, 0.1);
 }
 .social-icon {
   color: currentColor;
@@ -387,8 +388,7 @@ img {
   justify-content: center;
   align-items: center;
   padding: 0;
-  margin-right: 30px;
-  fill: var(--icon-page);
+  color: var(--icon-page);
 }
 .client-icon {
   fill: currentColor;
@@ -396,7 +396,7 @@ img {
 .client-link:hover,
 .client-link:focus {
   background-color: var(--background-color);
-  fill: var(--accent-color);
+  color: var(--accent-color);
   border: 1px solid var(--accent-color);
 }
 .client-icon:hover,
@@ -440,6 +440,31 @@ img {
 }
 .footer .mail {
   margin-bottom: 9px;
+}
+.footer-social .social-link {
+  fill: white;
+}
+.social.title {
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: white;
+  margin-bottom: 20px;
+  margin-top: 0px;
+}
+.footer-social {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.footer .container {
+  display: flex;
+  align-items: baseline;
+}
+.footer-contact {
+  margin-right: 70px;
 }
 /* ----кнопки----*/
 .button {
@@ -491,6 +516,8 @@ img {
 .button.filter:focus {
   color: var(--background-color);
   background-color: var(--hover-color);
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 /*----кнопки фильтра*/
 .button.filter.current {
@@ -501,6 +528,8 @@ img {
 .button.filter.current:focus {
   color: var(--background-color);
   background-color: var(--hover-color);
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 /* ----параграф в ссылке----*/
 .description {
@@ -555,4 +584,9 @@ img {
   line-height: 1.87;
   /* identical to box height, or 187% */
   letter-spacing: 0.03em;
+}
+.flex-element .link:hover,
+.flex-element .link:focus {
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+    1px 4px 6px rgba(0, 0, 0, 0.16);
 }
