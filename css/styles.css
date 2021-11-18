@@ -246,11 +246,13 @@ img {
 }
 .feature-icon {
   height: 120px;
+  width: 270px;
   margin-bottom: 30px;
   background-color: var(--secondary-background-color);
   border-radius: 4px;
   /*background-position: center;*/
   padding-top: 25px;
+  padding-bottom: 25px;
 }
 .feature.list .name:last-child {
   margin-right: 0;
