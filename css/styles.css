@@ -244,15 +244,25 @@ img {
   margin-right: 30px;
   align-items: center;
 }
-.feature-icon {
+/*.feature-icon {
   height: 120px;
   width: 270px;
   margin-bottom: 30px;
+}*/
+.icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /*height: 100%;
+  width: 100%;*/
   background-color: var(--secondary-background-color);
   border-radius: 4px;
-  /*background-position: center;*/
-  padding-top: 25px;
-  padding-bottom: 25px;
+  background-position: center;
+  height: 120px;
+  width: 270px;
+  margin-bottom: 30px;
+  /*padding-top: 25px;
+  padding-bottom: 25px;*/
 }
 .feature.list .name:last-child {
   margin-right: 0;
@@ -387,6 +397,7 @@ img {
   width: 170px;
   height: 92px;
   border: 1px solid var(--icon-page);
+  border-radius: 4px;
   justify-content: center;
   align-items: center;
   padding: 0;
@@ -447,7 +458,7 @@ img {
   fill: white;
 }
 .social.title {
-  font-weight: bold;
+  font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.03em;
